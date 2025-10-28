@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Rooms - Bachelor Life</title>
+    <link rel="stylesheet" href="find_room.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-bachelor">Bachelor</span><span class="logo-life">Life</span>
+        </div>
+        <nav class="nav-links">
+            <a href="../Index.html">Home</a>
+            <a href="find_room.html" class="active">Find Rooms</a> <a href="#">Post Room</a>
+        </nav>
+        <div class="nav-right-group">
+            <a href="#" class="login-btn">Login</a>
+            <button class="hamburger-menu" aria-label="Menu">&#9776;</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        
+        <section class="page-header">
+            <h1 class="animate-header">Discover Your Perfect Room</h1>
+            <div class="underline-animation"></div> <p class="animate-text">Browse through our curated collection of bachelor-friendly accommodations</p>
+        </section>
+
+        <section class="filter-bar animate-filter">
+            <div class="available-rooms">
+                <i class="fas fa-search-location"></i>
+                Available Rooms (0)
+            </div>
+
+            <div class="search-controls">
+                
+                <div class="input-group">
+                    <i class="fas fa-map-marker-alt icon-input"></i>
+                    <input type="text" placeholder="Search location" class="filter-input">
+                </div>
+                
+                <div class="input-group">
+                    <select class="filter-input">
+                        <option>All Room Types</option>
+                        <option>Single Room</option>
+                        <option>Shared Room</option>
+                    </select>
+                </div>
+                
+                <div class="price-slider-group">
+                    <div class="price-label">Max Budget: ₹25,000</div>
+                    <input type="range" min="10000" max="50000" value="25000" class="price-slider">
+                </div>
+
+                <button class="apply-btn">Apply Filters</button>
+            </div>
+        </section>
+
+        <section class="results-section animate-results">
+            <div class="no-results-box">
+                <i class="fas fa-search icon-large-grey"></i>
+                <h2>No rooms found</h2>
+                <p>Try adjusting your search criteria</p>
+            </div>
+            
+            </section>
+
+    </main>
+
+    <footer>
+        <div class="made-in-bolt">Made in Bolt</div> 
+    </footer>
+    
+    </body>
+</html>
