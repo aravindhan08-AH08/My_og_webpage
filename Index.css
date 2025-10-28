@@ -34,7 +34,7 @@ a, .btn, .card, input, select {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background-color: var(--white);
+    background-color:var(--primary-blue);
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     position: sticky;
     top: 0;
@@ -44,23 +44,23 @@ a, .btn, .card, input, select {
 .logo {
     font-size: 1.6em;
     font-weight: 700;
-    color: var(--primary-blue);
+    color: var(--white);
 }
 
 .navbar a {
     text-decoration: none;
-    color: var(--text-dark);
+    color: var(--white);
     margin: 0 20px;
     font-weight: 500;
 }
 
 .navbar a:hover {
-    color: var(--primary-blue); /* Hover: நிறம் மாறுதல் */
+    color: var(--black);
 }
 
 .login-btn {
-    background-color: var(--primary-blue);
-    color: var(--white) !important;
+    background-color: var(--blue);
+    color: var(--white);
     padding: 8px 25px;
     border-radius: 6px;
     text-decoration: none;
@@ -68,11 +68,10 @@ a, .btn, .card, input, select {
 }
 .login-btn:hover {
     background-color: var(--dark-blue); /* Hover: அடர் நீலமாக மாறுதல் */
-    color: var(--white) !important;
+    color: var(--white);
 }
 
 
-/* === 3. Hero Section (Smooth Entrance Animation) === */
 .hero-section {
     background-color: var(--light-bg);
     text-align: center;
