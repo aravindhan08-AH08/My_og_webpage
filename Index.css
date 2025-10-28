@@ -55,7 +55,7 @@ a, .btn, .card, input, select {
 }
 
 .navbar a:hover {
-    color: var(--black);
+    color: var(--success-green);
 }
 
 .login-btn {
@@ -67,7 +67,7 @@ a, .btn, .card, input, select {
     font-weight: 600;
 }
 .login-btn:hover {
-    background-color: var(--dark-blue); /* Hover: அடர் நீலமாக மாறுதல் */
+    background-color: var(--primary-blue); /* Hover: அடர் நீலமாக மாறுதல் */
     color: var(--white);
 }
 
